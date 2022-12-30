@@ -1,0 +1,12 @@
+/* Globais */
+@import url("global/color.css");
+@import url("global/componentes.css");
+@import url("global/fonts.css");
+@import url("global/footer.css");
+@import url("global/header.css");
+
+/*  Especificas */
+@import url("./home.css");
+@import url("./iniciacao-cientifica.css");
+@import url("./notas.css");
+@import url("./publicacoes.css");
