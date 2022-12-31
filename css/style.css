@@ -1,12 +1,23 @@
 /* Globais */
-@import url("global/color.css");
-@import url("global/componentes.css");
-@import url("global/fonts.css");
-@import url("global/footer.css");
-@import url("global/header.css");
+@import url("./global/global.css");
+@import url("./global/footer.css");
+@import url("./global/header.css");
 
-/*  Especificas */
+/* Utilidades */
+@import url("./utilidades/color.css");
+@import url("./utilidades/componentes.css");
+@import url("./utilidades/tipografia.css");
+@import url("./utilidades/animacao.css");
+
+
+/* Animacoes */
+@import url("./global/constelacao.css");
+
+
+/* Home */
 @import url("./home.css");
+
+
 @import url("./iniciacao-cientifica.css");
 @import url("./notas.css");
 @import url("./publicacoes.css");

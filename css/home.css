@@ -1,0 +1,40 @@
+.apresentacao {
+    display: grid;
+    gap: 32px;
+    justify-content: center;
+}
+
+.img-perfil {
+    justify-self: center;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-perfil img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.apresentacao-content,
+.trajetoria-content {
+    max-width: 75ch;
+    padding: 16px 16px;
+    background-color: var(--cor-c1);
+    border-radius: 4px;
+}
+
+.trajetoria-content {
+    padding: 16px 16px 0 16px;
+}
+
+.apresentacao-content p,
+.trajetoria-content p {
+    text-align: justify;
+}
+
+
+.trajetoria-content  p{
+    margin-bottom: 16px;
+}
+
