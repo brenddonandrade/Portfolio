@@ -11,7 +11,8 @@ p, * {
 }
 
 .header-bg,
-.apresentacao-bg {
+.apresentacao-bg,
+.footer-bg {
   margin-bottom: 32px;
 }
 
