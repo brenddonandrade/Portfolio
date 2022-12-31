@@ -12,9 +12,38 @@ p, * {
 
 .header-bg,
 .apresentacao-bg,
-.footer-bg {
+.footer-bg,
+.content-bg {
   margin-bottom: 32px;
 }
+
+.apresentacao-content,
+.trajetoria-content,
+.iniciacao-content,
+.publicacoes-content,
+.projetos-content,
+.notas-content,
+.contato-content {
+    max-width: 75ch;
+    padding: 16px 16px 0 16px;
+    background-color: var(--cor-c1);
+    border-radius: 4px;
+}
+
+
+
+
+.apresentacao-content p,
+.trajetoria-content p,
+.iniciacao-content p,
+.publicacoes-content p,
+.projetos-content p,
+.notas-content p  {
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+
 
 body {
   background-color: var(--cor-c0);

@@ -1,7 +1,10 @@
 .container {
+    display: flex;
+    justify-content: center;
     max-width: 900px;
     margin: 0 auto;
     padding: 0 16px;
+
 }
 
 .title-1 {
