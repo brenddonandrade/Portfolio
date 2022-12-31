@@ -38,3 +38,9 @@
     margin-bottom: 16px;
 }
 
+
+@media (max-width:400px) {
+    .img-perfil {
+        max-width: 200px;
+    }
+}
