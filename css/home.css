@@ -18,22 +18,7 @@
 
 
 
-/* Footer */
-.footer {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    border-top: 2px solid var(--cor-c4);
-    padding: 16px 0 0 0 ;
-}
 
-.footer div {
-    transition: all 0.3s ease;
- }
-
- .footer div:hover {
-    color: var(--cor-c3);
- }
 
 
 @media (max-width:400px) {
