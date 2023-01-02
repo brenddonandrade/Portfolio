@@ -13,7 +13,9 @@ p, * {
 .header-bg,
 .apresentacao-bg,
 .footer-bg,
-.content-bg {
+.content-bg,
+.trajetoria,
+.almejos {
   margin-bottom: 32px;
 }
 
@@ -23,7 +25,8 @@ p, * {
 .publicacoes-content,
 .projetos-content,
 .notas-content,
-.contato-content {
+.contato-content,
+.almejos-content {
     max-width: 75ch;
     padding: 16px 16px 0 16px;
     background-color: var(--cor-c1);
@@ -38,11 +41,20 @@ p, * {
 .iniciacao-content p,
 .publicacoes-content p,
 .projetos-content p,
-.notas-content p  {
+.notas-content p,
+.almejos-content p  {
     text-align: justify;
     margin-bottom: 16px;
 }
 
+p > a {
+  padding: 0;
+  font-weight: 700;
+}
+
+p > a:hover{
+  text-decoration: underline;
+}
 
 
 body {

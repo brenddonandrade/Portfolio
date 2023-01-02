@@ -5,7 +5,7 @@
     align-items: center;
     gap: 16px;
     border-top: 2px solid var(--cor-c4);
-    padding: 30px;
+    padding: 16px 16px 0 16px;
 }
 
 .footer .insta:hover,
