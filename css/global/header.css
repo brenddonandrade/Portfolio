@@ -1,7 +1,8 @@
-.header-bg{
+.header-bg {
     background-color: var(--cor-c0);
-    padding: 16px 0 ;
+    padding: 16px 0;
 }
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -14,12 +15,9 @@
     display: inline-block;
 }
 
-.menu li + li {
+.menu li+li {
     border-left: 2px solid var(--cor-c6);
 }
-
-
-
 
 
 
@@ -36,7 +34,7 @@
     width: 100%;
 }
 
-@media(max-width: 400px){
+@media(max-width: 400px) {
     .menu {
         display: grid;
     }

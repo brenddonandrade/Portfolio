@@ -1,14 +1,25 @@
+.main-content {
+    display: grid;
+    /* gap: 32px; */
+    grid-template-columns: 1fr 1fr;
+}
+
+
 .apresentacao {
     display: grid;
+    grid-template-columns: 1fr 2fr;
     gap: 32px;
     justify-content: center;
 }
 
 .img-perfil {
     justify-self: center;
-    max-width: 500px;
+    object-fit: cover;
+    max-width: 300px;
+    /* max-height: 700px; */
     display: flex;
     justify-content: center;
+    /* filter: grayscale(100%); */
 }
 
 .img-perfil img {
