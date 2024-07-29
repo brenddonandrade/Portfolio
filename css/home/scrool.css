@@ -1,0 +1,44 @@
+.works {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    background-color: var(--cor-c1);
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.slide {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    padding: 16px;
+}
+
+.slide-img {
+    height: 100vh - 240px;
+    margin-bottom: 20px;
+}
+
+.slide-img img {
+    height: 100%;
+    filter: saturate(0);
+}
+
+.slide-img img:hover {
+    filter: saturate(1);
+}
+
+
+.slide-item h3::before {
+    content: "";
+    display: inline-block;
+    width: 0px;
+    height: 3px;
+    background-color: var(--cor-primary-clara);
+    transition: width .3s;
+}
+
+.slide-item a:hover h3::before {
+    width: 20px;
+    margin-right: 12px;
+}

@@ -15,7 +15,8 @@
 
 
 /* Home */
-@import url("./home.css");
+@import url("./home/home.css");
+@import url("./home/scrool.css");
 @import url("./iniciacao-cientifica.css");
 @import url("./notas.css");
 @import url("./publicacoes.css");
